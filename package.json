@@ -1,11 +1,11 @@
 {
-  "name": "lyrical",
+  "name": "lyrics",
   "version": "1.0.0",
-  "description": "Starter point for a graphQL course",
+  "description": "graphQL and react",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
+    "url": ""
   },
   "scripts": {
     "dev": "nodemon index.js --ignore client"
@@ -29,6 +29,7 @@
     "html-webpack-plugin": "^2.26.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.7.8",
+    "nodemon": "^1.11.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "react": "^15.4.2",
