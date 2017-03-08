@@ -9,7 +9,11 @@ import SongList from './components/SongList';
 import SongCreate from './components/SongCreate';
 import SongDetail from './components/SongDetail';
 // assumes we are using a '/graphql' endpoint/route
-const client = new ApolloClient({});
+const client = new ApolloClient({
+  // Fetch all the data...and use the id to identify each piece of data.
+  // If something changes, rerender all components using the data with that id.
+  dataIdFromObject: o => o.id
+});
 
 const Root = () => {
   return (
